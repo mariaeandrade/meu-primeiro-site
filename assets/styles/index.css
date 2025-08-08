@@ -20,7 +20,7 @@ font-family: "Slabo 27px"
 
 
 header {
-    background-color: #212974cb;
+    background-color: #232852;
     color: #ffffff;
     font-style: oblique;
     padding: 20px;
@@ -28,7 +28,7 @@ header {
 }
 
 main {
- background-color: #21297449;
+ background-color: #0e155875;
  flex: 1;
  padding: 48px 38px;
  width: 100%;
@@ -36,17 +36,51 @@ main {
 
 about-section {
  display:block;
- background-color: #21297448;
+ background-color: #9ea5e762;
  width: 80%;
  margin: 0 auto;
  padding: 40px;
  border-radius: 12px;
+ margin-bottom: 30px;
 }
 
 #titulo-sobre-mim {
     font-size: 30px;
-    border-bottom: 4px solid #212974b9;
+    border-bottom: 3px solid #212974b9;
 } .texto-sobre-mim {
     font-size: 20px;
-}
+} 
+hobbies{
+    display:block;
+    background-color: #9ea5e762;
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+   }
 
+   ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+   }
+
+   li {
+    background-color: #9ea5e762;
+    padding: 12px;
+    border-left: 4px solid rgb(48, 0, 124);
+    font-size: 16px;
+    min-width: 350px
+   }
+   li:hover {
+    background-color: #232852fb;
+    transform: translateX(5px);
+    transition: all 0.3s ease;
+   } 
+   #titulo-meus-hobbies {
+    font-size: 30px;
+    border-bottom: 3px solid #212974b9;
+    margin-bottom: 20px;
+   }
