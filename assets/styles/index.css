@@ -78,9 +78,48 @@ hobbies{
     background-color: #232852fb;
     transform: translateX(5px);
     transition: all 0.3s ease;
+    color:#e7eaffb9;
    } 
    #titulo-meus-hobbies {
     font-size: 30px;
     border-bottom: 3px solid #212974b9;
     margin-bottom: 20px;
+   }
+   contact {
+    display:block;
+    background-color: #9ea5e762;
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+   }
+   contact h2 {
+    margin-bottom: 8px;
+    font-size: 30px;
+    text-align: center;
+   }
+
+   contact p {
+    text-align: center;
+    font-size: 20px;
+   }
+   contact a {
+    color: #232852;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: 2px solid #232852;
+    border-radius: 12px ;
+    display: inline-block;
+     transition: all 0.3s ease;
+    }
+
+   contact a:hover {
+    background-color: #232852fb;
+    color:#e7eaffb9;
+    transform: translateX(-2px);
+  
    }
