@@ -123,3 +123,15 @@ hobbies{
     transform: translateX(-2px);
   
    }
+
+   footer {
+    background-color: #232852;
+    color: #6F8FAF;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+   }
+
+   footer p {
+    font-size: 1.4rem;
+   }
